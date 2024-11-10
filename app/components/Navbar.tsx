@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import Link from "next/link";
 import menuh from "../assets/menuh.svg";
 import close from "../assets/close.svg";
@@ -64,7 +64,7 @@ const Navbar = () => {
 						About
 					</h1>
 				</Link>
-				{/* <Link href="/#tokenomics">
+				<Link href="/#tokenomics">
 					<h1 className="lg:my-auto hover:text-[#00B700]">
 						Tokenomics
 					</h1>
@@ -73,15 +73,15 @@ const Navbar = () => {
 					<h1 className="my-[20px] lg:my-auto hover:text-[#00B700]">
 						How To Buy
 					</h1>
-				</Link> */}
+				</Link>
 			</section>
 			<div className="hidden lg:flex w-[140px] justify-between   ">
-				<Link href="/">
+				<Link href="https://t.me/gonzo_onchain">
 					<div className="w-[58px] h-[58px] rounded-[16px] tg ">
 						<Image src={tg} alt="telegram" className="" />
 					</div>
 				</Link>
-				<Link href="/">
+				<Link href="https://x.com/gonzo_onchain">
 					<div className="w-[58px] h-[58px] rounded-[16px] tg ">
 						<Image src={twit} alt="twitter" className="" />
 					</div>
